@@ -13,6 +13,7 @@ COMMUNICATION STEPS:
 - So I'm supposed to iterate over a list to find the very first greater value character?
 - Do I need to return it in a specific way such as capitalized or in an array?
 - What do I return if there target value isn't found?
+[Refer to comments in the code for the rest]
 
 PSEUDO
 - Create a function that takes in a list of characters and target
@@ -22,6 +23,7 @@ PSEUDO
 - Have a series of checks to move the boundaries
 - Return first character if not found or the character if found
 */
+
 function find_smallest_el(arr: string[], target: string): string {
     // low and high values to set the boundaries
     let low = 0;

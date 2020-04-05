@@ -12,6 +12,7 @@ and if the current number I'm on in the iteration is even I have to divide by 2
 otherwise I need to subtract 1?
 - Are the the numbers in sorted order?
 - Can I assume there wont be any decimal values?
+[Refer to comments in the code for the rest]
 
 PSEUDO
 - Have a function take in a number
