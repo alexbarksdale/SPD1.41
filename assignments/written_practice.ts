@@ -22,7 +22,6 @@ PSEUDO
 - Have a series of checks to move the boundaries
 - Return first character if not found or the character if found
 */
-
 function find_smallest_el(arr: string[], target: string): string {
     // low and high values to set the boundaries
     let low = 0;
@@ -47,5 +46,4 @@ function find_smallest_el(arr: string[], target: string): string {
 const T1 = ['c', 'f', 'j'];
 const find_val = 'f'; // should return 'j'
 
-// This should return 'j'
 console.log(find_smallest_el(T1, find_val));
